@@ -1,0 +1,26 @@
+.createPost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  padding: 24px 24px;
+}
+.imagePreview {
+  display: none;
+  height: 80px;
+  margin: 12px 0px;
+  border-radius: 4px;
+}
+
+.textArea {
+  border: none;
+  margin: 8px;
+}
+
+.textArea:focus {
+  outline: none;
+}
+.uploadBtn,
+.select_Btn {
+  display: flex;
+}

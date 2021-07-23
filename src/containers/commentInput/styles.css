@@ -1,0 +1,14 @@
+.comment-input{
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-TextBox{
+  border: none;
+  width: 100%;
+  resize: none;
+  margin: 8px 0px;
+}
+.comment-TextBox:focus{
+  outline: none;
+}
